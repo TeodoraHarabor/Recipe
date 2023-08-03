@@ -1,3 +1,14 @@
 .cake-icon {
   width: 18px;
 }
+
+.navbar {
+  background-color: #f5e3d9;
+}
+
+nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #9f8170;
+  background-color: white;
+}

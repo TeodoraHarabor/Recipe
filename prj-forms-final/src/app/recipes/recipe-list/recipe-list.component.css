@@ -1,3 +1,9 @@
-.btn {
-  border: 2px solid green;
+.btn,
+.btn:active {
+  background-color: #9f8170;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
 }
