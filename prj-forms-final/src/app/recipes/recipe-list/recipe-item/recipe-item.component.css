@@ -5,3 +5,16 @@ h4 {
 p {
   font-style: italic;
 }
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #9f8170;
+  border-color: #ddcab0;
+}
+
+.list-group-item.active .list-group-item-text {
+  color: white;
+}
