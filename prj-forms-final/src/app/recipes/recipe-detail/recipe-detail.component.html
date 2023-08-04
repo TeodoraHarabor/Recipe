@@ -16,15 +16,10 @@
   </div>
   <div class="row">
     <div class="col-xs-12">
-      <p>{{ recipe.description }}</p>
-    </div>
-  </div>
-  <button type="button" class="btn btn-primary dropdown-toggle">
-    Manage Recipe <span class="caret"></span>
-  </button>
-  <div class="row">
-    <div class="col-xs-12">
       <div class="btn-group" appDropdown>
+        <button type="button" class="btn btn-primary dropdown-toggle">
+          Manage Recipe <span class="caret"></span>
+        </button>
         <ul class="dropdown-menu">
           <li>
             <a (click)="onAddToShoppingList()" style="cursor: pointer"
@@ -43,7 +38,11 @@
       </div>
     </div>
   </div>
-
+  <div class="row">
+    <div class="col-xs-12">
+      {{ recipe.description }}
+    </div>
+  </div>
   <div class="row">
     <div class="col-xs-12">
       <ul class="list-group">
