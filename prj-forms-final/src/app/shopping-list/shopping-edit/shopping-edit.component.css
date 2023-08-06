@@ -1,0 +1,23 @@
+.add-btn {
+  background-color: #9f8170;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.add-btn:hover,
+.clear-btn:hover {
+  transform: scale(1.1);
+}
+
+.clear-btn {
+  background-color: #bfaa9f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}

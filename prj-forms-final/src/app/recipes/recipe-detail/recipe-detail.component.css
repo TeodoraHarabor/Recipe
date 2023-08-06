@@ -21,23 +21,19 @@ h1 {
   color: #836858;
 }
 
-p {
-  text-align: center;
+.description {
   font-style: italic;
+  margin-bottom: 10px;
 }
 
-.btn {
-  margin-left: 95px;
-  margin-bottom: 10px;
+#btn-manage-recipe {
   background-color: #9f8170;
   border: none;
 }
 
-.dropdown-menu > li > a:hover {
+.btn:focus {
   background-color: #9f8170;
-  color: white;
 }
-
 .col-xs-12 {
   display: flex;
   justify-content: center;
@@ -45,4 +41,8 @@ p {
 .list-group {
   width: 470px;
   margin-left: 10px;
+}
+
+#dropdown-menu::selection {
+  background-color: blue;
 }
