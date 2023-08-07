@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.footer {
+  align-items: flex-end;
+  margin-top: auto;
+  background-color: #e6deda;
+  width: 120%;
+  height: 60px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
